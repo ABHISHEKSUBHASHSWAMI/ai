@@ -1,0 +1,28 @@
+#Abhishek Subhash Swami 21 AIML
+
+
+Installation of tensorflow:
+
+I. With PIP
+
+    1. Windows
+            syntax:
+                    python3 -m pip install tensorflow
+
+            # Verify install:
+                    python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+    2. MacOS
+            syntax: python3 -m pip install tensorflow
+            
+            # Verify install:
+                    python3 -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+    3. Linux
+            syntax: python3 -m pip install tensorflow
+            
+            # Verify install:
+                    python3 -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+
+II. With Anaconda
+
+            syntax:
+                    conda install tensorflow
